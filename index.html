@@ -338,36 +338,35 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								</section>
 
 								<!-- Form Submit -->
-								<section id="formsubmit">
-									<div class="field half first">
-										<label for="demo-name">Name</label>
-										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-									</div>
+								<section id="formsubmit">									
 									<form action="/thanks" class="contact-form contact-form-padding" method="post" name="contact">
 										<input type="hidden" name="form-name" value="contact">
 										<input type="hidden" name="form_subject" value="Contact form">
 										
 											
-										<div class="form-field">
+										<div class="field half first">
 											<label for="contact-first-name" class="form-field-label">Your First Name</label>
 											<input type="text" class="form-field-input letters-only" minlength="3" maxlength="40" required="" name="ContactFirstName" value="" autocomplete="off" id="contact-first-name">
 										</div>
 										
-										</div><div class="col-xl-4 col-sm-6 col-12">
-										<div class="form-field">
+										<div class="field half first">
 											<label for="contact-last-name" class="form-field-label">Your Last Name</label>
 											<input type="text" class="form-field-input letters-only" minlength="3" maxlength="40" required="" name="ContactLastName" value="" autocomplete="off" id="contact-last-name">
 										</div>
 										
-										<div class="form-field">
+										<div class="field half first">
 											<label for="contact-company" class="form-field-label">Company</label>
 											<input type="text" class="form-field-input" minlength="3" maxlength="50" name="ContactCompany" value="" autocomplete="off" id="contact-company" required="">
 										</div>											
 										
-										<div class="form-field">
+										<div class="field half first>
 											<label for="contact-email" class="form-field-label">Your Email</label>
 											<input type="email" class="form-field-input" name="ContactEmail" value="" autocomplete="off" required="required" id="contact-email">
 										</div>
+
+										<ul class="actions">
+											<li><input type="submit" value="Submit" class="special" /></li>											
+										</ul>
 
 										<!--
 										<div class="form-field">
@@ -401,6 +400,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 	</body>
 </html>
+
 
 
 
