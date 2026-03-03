@@ -70,6 +70,7 @@
 
 						<!-- Contact -->
 							<article id="contact">
+								<!--
 								<h2 class="major">Contact</h2>
 								<form method="post" action="#">
 									<div class="field half first">
@@ -95,6 +96,38 @@
 									<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 									<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
+								-->
+
+									<h3 class="major">Submit Form</h3>
+									<form action="/thanks" class="contact-form contact-form-padding" method="post" name="contact">
+										<input type="hidden" name="form-name" value="contact">
+										<input type="hidden" name="form_subject" value="Contact form">										
+											
+										<div class="field half first">
+											<label for="contact-first-name">Your First Name</label>
+											<input type="text" class="form-field-input letters-only" minlength="3" maxlength="40" required="" name="ContactFirstName" value="" autocomplete="off" id="contact-first-name">
+										</div>
+										
+										<div class="field half first">
+											<label for="contact-last-name">Your Last Name</label>
+											<input type="text" class="form-field-input letters-only" minlength="3" maxlength="40" required="" name="ContactLastName" value="" autocomplete="off" id="contact-last-name">
+										</div>
+										
+										<div class="field half first">
+											<label for="contact-company">Company</label>
+											<input type="text" class="form-field-input" minlength="3" maxlength="50" name="ContactCompany" value="" autocomplete="off" id="contact-company" required="">
+										</div>											
+										
+										<div class="field half first>
+											<label for="contact-email">Your Email</label>
+											<input type="email" class="form-field-input" name="ContactEmail" value="" autocomplete="off" required="required" id="contact-email">
+										</div>
+
+										<ul class="actions">
+											<li><input type="submit" value="Submit" class="special" /></li>											
+										</ul>
+									</form>
+								
 							</article>
 
 						<!-- Elements -->
@@ -428,6 +461,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 	</body>
 </html>
+
 
 
 
